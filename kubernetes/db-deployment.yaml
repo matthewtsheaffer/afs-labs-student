@@ -6,9 +6,9 @@ metadata:
   labels:
     app: db
 spec:
-  replicas: <REPLICAS>
+  replicas: 1
   strategy:
-    type: ClusterIP
+    type: Recreate
   minReadySeconds: 20
   selector:
     matchLabels:
