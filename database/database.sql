@@ -1,4 +1,5 @@
---
+--11/17/2022 10:44AM MSheaffer- Activity 6 - created a new DB build in Jenkins that is separate from the application build. 
+--New Build processes db changes separate from the app build.
 -- PostgreSQL database dump
 --
 
